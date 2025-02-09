@@ -1,0 +1,58 @@
+<form (ngSubmit)="createSemester()" [formGroup]="semesterForm">
+  <h2>Novi semestar za {{studentFirstName}} {{studentLastName}}</h2>
+  <mat-form-field appearance="fill" class="form-field">
+    <mat-label>Datum</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="date" required/>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+    <mat-error *ngIf="semesterForm.get('date')?.invalid && semesterForm.get('date')?.touched">
+      <ng-container *ngIf="semesterForm.get('date')?.errors as errors">
+        <small *ngIf="errors['required']">Date is required.</small>
+      </ng-container>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field">
+    <mat-label>Godina studija</mat-label>
+    <input formControlName="yearOfStudy" required matInput/>
+    <mat-error *ngIf="semesterForm.get('yearOfStudy')?.invalid && semesterForm.get('yearOfStudy')?.touched">
+      <ng-container *ngIf="semesterForm.get('yearOfStudy')?.errors as errors">
+        <small *ngIf="errors['required']">Year of study is required.</small>
+        <small *ngIf="errors['min']">Minimum is 1</small>
+        <small *ngIf="errors['maximum']">Maximum is 5</small>
+      </ng-container>
+    </mat-error>
+  </mat-form-field>
+
+  <!-- Region Dropdown -->
+  <mat-form-field appearance="fill" class="form-field">
+    <mat-label>Ak. godina</mat-label>
+    <mat-select formControlName="academicYearId" required>
+      <mat-option *ngFor="let year of academicYears" [value]="year.id">
+        {{ year.description }}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="semesterForm.get('academicYearId')?.touched && semesterForm.get('academicYearId')?.errors">
+      <span *ngIf="semesterForm.get('academicYearId')?.errors?.['academicYearId']">Region is required.</span>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field">
+    <mat-label>Cijena školarine</mat-label>
+    <input formControlName="tuition" matInput/>
+    <mat-error *ngIf="semesterForm.get('tuition')?.invalid && semesterForm.get('tuition')?.touched">
+    </mat-error>
+  </mat-form-field>
+
+  <mat-checkbox formControlName="renewal">Obnova godine</mat-checkbox>
+
+
+  <div class="form-buttons">
+    <button [disabled]="semesterForm.invalid" color="primary" mat-raised-button type="submit">
+      Save Changes
+    </button>
+    <button color="warn" mat-raised-button routerLink="/admin/cities" type="button">
+      Cancel
+    </button>
+  </div>
+</form>

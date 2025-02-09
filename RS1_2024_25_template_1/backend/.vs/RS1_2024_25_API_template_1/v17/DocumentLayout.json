@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestercreateendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestercreateendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestersgetbystudentidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\endpoints\\wintersemesterendpoints\\wintersemestersgetbystudentidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\data\\models\\sharedtables\\wintersemester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\data\\models\\sharedtables\\wintersemester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\endpoints\\studentendpoints\\studentgetallendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\endpoints\\studentendpoints\\studentgetallendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|c:\\users\\korisnik\\desktop\\rs1-2024-25-ispit-2025-01-21\\rs1_2024_25_template_1\\backend\\rs1_2024_25.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88D8E34A-713A-42BB-A5CC-246FA15BD7C0}|RS1_2024_25.API\\RS1_2024_25.API.csproj|solutionrelative:rs1_2024_25.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WinterSemesterCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateValidator.cs",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateValidator.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateValidator.cs",
+              "RelativeToolTip": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:38:04.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinterSemesterCreateEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateEndpoint.cs",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateEndpoint.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateEndpoint.cs",
+              "RelativeToolTip": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemesterCreateEndpoint.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:49:55.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WinterSemestersGetByStudentIdEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemestersGetByStudentIdEndpoint.cs",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemestersGetByStudentIdEndpoint.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemestersGetByStudentIdEndpoint.cs",
+              "RelativeToolTip": "RS1_2024_25.API\\Endpoints\\WinterSemesterEndpoints\\WinterSemestersGetByStudentIdEndpoint.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:01:30.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WinterSemester.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Data\\Models\\SharedTables\\WinterSemester.cs",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\Data\\Models\\SharedTables\\WinterSemester.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Data\\Models\\SharedTables\\WinterSemester.cs",
+              "RelativeToolTip": "RS1_2024_25.API\\Data\\Models\\SharedTables\\WinterSemester.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:50:07.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentGetAllEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\StudentEndpoints\\StudentGetAllEndpoint.cs",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\Endpoints\\StudentEndpoints\\StudentGetAllEndpoint.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\Endpoints\\StudentEndpoints\\StudentGetAllEndpoint.cs",
+              "RelativeToolTip": "RS1_2024_25.API\\Endpoints\\StudentEndpoints\\StudentGetAllEndpoint.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:15:12.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RS1_2024_25.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\rs1-2024-25-ispit-2025-01-21\\RS1_2024_25_template_1\\backend\\RS1_2024_25.API\\appsettings.json",
+              "RelativeToolTip": "RS1_2024_25.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T20:09:44.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
